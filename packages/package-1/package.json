@@ -1,0 +1,16 @@
+{
+  "name": "package-1",
+  "version": "1.0.0",
+  "description": "Reproduces an issue with Vitest --retry in a monorepo setup",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "vitest"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "vite": "5.0.10",
+    "vitest": "1.0.4"
+  }
+}
